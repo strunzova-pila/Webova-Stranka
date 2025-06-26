@@ -1,26 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Strunzova Pila - Apartmány v Krkonoších
 
-## Getting Started
+Next.js webová aplikace pro prezentaci apartmánů Strunzova Pila.
 
-First, run the development server:
+## 📁 Struktura projektu
+
+```
+src/
+├── app/                 # Next.js App Router
+│   ├── layout.tsx       # Root layout s Navbar
+│   ├── page.tsx         # Hlavní stránka
+│   └── globals.css      # Globální styly
+├── components/          # React komponenty
+│   └── Navbar.tsx       # Hlavní navigace
+├── types/              # TypeScript type definitions
+│   └── index.ts        # Centralizované typy
+├── utils/              # Utility funkce a konstanty
+│   └── constants.ts    # Konstanty projektu
+├── styles/             # Styly a design system
+│   └── colors.ts       # Color palette
+└── hooks/              # Custom React hooks (připraveno)
+
+public/
+└── strunzova-pila-logo.png  # Logo
+```
+
+## 🚀 Spuštění
 
 ```bash
 npm run dev
-# or
+# nebo
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Otevřete [http://localhost:3000](http://localhost:3000) v prohlížeči.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design System
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Barvy**: Definovány v `src/styles/colors.ts`
+- **Konstanty**: Centralizované v `src/utils/constants.ts`
+- **Typy**: TypeScript typy v `src/types/index.ts`
 
-## Learn More
+## 📦 Technologie
+
+- Next.js 15
+- React 18
+- TypeScript
+- Tailwind CSS
+
+## Learn More![alt text](vscode-file://vscode-app/Users/danielmitka/Library/Application%20Support/Cursor/User/workspaceStorage/images/image-23d5d28a-9d25-4bdd-956c-a80509c5dfc9.png?t%3D1750933213940)
 
 To learn more about Next.js, take a look at the following resources:
 
