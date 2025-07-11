@@ -5,6 +5,7 @@ export const MENU_ITEMS = [
   "GALERIE",
   "APARTMÁNY",
   "KONTAKT",
+  "REZERVACE",
 ] as const;
 
 // Rozměry a breakpointy

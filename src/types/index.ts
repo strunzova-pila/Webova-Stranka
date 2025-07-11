@@ -4,7 +4,8 @@ export type MenuItem =
   | "LOKALITA"
   | "GALERIE"
   | "APARTMÁNY"
-  | "KONTAKT";
+  | "KONTAKT"
+  | "REZERVACE";
 
 // Komponenty props
 export interface NavbarProps {

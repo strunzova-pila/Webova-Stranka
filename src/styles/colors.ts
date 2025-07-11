@@ -31,5 +31,15 @@ export const colors = {
   },
 } as const;
 
+// Font family konstanty (podle originálního webu)
+export const fonts = {
+  primary: "var(--font-poppins)", // Poppins pro běžný text
+  heading: "var(--font-montserrat)", // Montserrat pro nadpisy a navbar
+  weights: {
+    normal: "400",
+    semibold: "600",
+  },
+} as const;
+
 // Export jednotlivých barev pro snadné použití
 export const { primary, neutral, state } = colors;
