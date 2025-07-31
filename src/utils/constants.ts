@@ -47,7 +47,7 @@ export const SIZES = {
 
 // Texty a labels
 export const LABELS = {
-  cta: "MÁM ZÁJEM",
+  cta: "REZERVOVAT",
   logoAlt: "Strunzova pila logo",
 } as const;
 
