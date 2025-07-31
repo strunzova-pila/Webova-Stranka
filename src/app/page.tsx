@@ -194,16 +194,16 @@ export default function HomePage() {
                 className="text-xl font-montserrat font-normal text-[#B8A082] leading-tight mb-4"
                 style={{ letterSpacing: "0.02em" }}
               >
-                „CHTĚJTE VÍC! NÁDHERNÁ ŠUMAVSKÁ PŘÍRODA VHODNÁ K LETNÍ I ZIMNÍ
-                TURISTICE A SPORTU. STRATEGICKÁ POLOHA U SJEZDOVKY, VEŠKERÁ
-                OBČANSKÁ VYBAVENOST NA DOSAH.
+                &ldquo;CHTĚJTE VÍC! NÁDHERNÁ ŠUMAVSKÁ PŘÍRODA VHODNÁ K LETNÍ I
+                ZIMNÍ TURISTICE A SPORTU. STRATEGICKÁ POLOHA U SJEZDOVKY,
+                VEŠKERÁ OBČANSKÁ VYBAVENOST NA DOSAH.
               </h1>
 
               <h2
                 className="text-xl font-montserrat font-normal text-[#B8A082] leading-tight mb-4"
                 style={{ letterSpacing: "0.02em" }}
               >
-                APARTMÁNY PILA KVILDA NABÍZÍ ZKRÁTKA VŠE!"
+                APARTMÁNY PILA KVILDA NABÍZÍ ZKRÁTKA VŠE!&rdquo;
               </h2>
 
               <p className="text-sm font-poppins text-gray-600 italic">

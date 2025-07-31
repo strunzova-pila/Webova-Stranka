@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Apartment } from "@/types";
 
 // Data apartmánů - stejná jako v hlavní stránce
 const apartments = [
@@ -126,7 +127,7 @@ export default async function ApartmentDetailPage({
   }
 
   // Generujeme popis podle typu apartmánu
-  const getDescription = (apartment: any) => {
+  const getDescription = (apartment: Apartment) => {
     const typeDescription =
       apartment.type === "1+kk"
         ? "jednopokojový apartmán"

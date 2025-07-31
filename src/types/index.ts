@@ -7,6 +7,16 @@ export type MenuItem =
   | "KONTAKT"
   | "REZERVACE";
 
+// Apartment type
+export interface Apartment {
+  id: string;
+  floor: string;
+  type: string;
+  area: string;
+  parking: string;
+  status: string;
+}
+
 // Komponenty props
 export interface NavbarProps {
   className?: string;
